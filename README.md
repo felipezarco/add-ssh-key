@@ -6,7 +6,7 @@
 
 ```eval "$(ssh-agent -s)"``` [You should see an Agent pid number]
 
-```ssh-add ~/.ssh/id_ed25519``` [Set the password to your private key]
+```ssh-add ~/.ssh/id_ed25519``` [Set the password to your private key] (Optional on Windows)
 
 ```clip < ~/.ssh/id_ed25519.pub``` [Copy the generated SSH key]
 
