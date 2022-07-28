@@ -10,4 +10,6 @@
 
 5. ```clip < ~/.ssh/id_ed25519.pub``` **[Copy the generated SSH key]**
 
-**Go to Github profile** menu > *Settings* >  *SSH and GPG keys* and paste it!
+6. **Go to Github profile** menu > *Settings* >  *SSH and GPG keys* and paste it!
+
+7. Click the "Star" top-right button if this worked.
