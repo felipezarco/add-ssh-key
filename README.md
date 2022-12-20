@@ -5,26 +5,32 @@
 ssh-keygen -t ed25519 -C "felipezarco@hotmail.com"
 ``` 
 
-2. Enter a file in which to save the key
+2. Press Enter 
 ```shell
 (/c/Users/you/.ssh/id_ed25519): **[Press enter]**
 ```
 
-3. Check if below command outputs "Agent pid number"
+3. Choose your password (not very hard since you will need it everytime) 
+
+4. Check if below command outputs "Agent pid number"
 ```
 eval "$(ssh-agent -s)"
 ``` 
 
-4. Set the password to your private key (Optional on Windows)
+5. Set the password to your private key (Optional on Windows)
 ```
 ssh-add ~/.ssh/id_ed25519
 ``` 
 
-5. Copy the generated SSH key
+6. Copy the generated SSH key
 ````
 clip < ~/.ssh/id_ed25519.pub
 ```` 
 
-6. Go to Github profile menu > *Settings* > *SSH and GPG keys* and paste it!
+7. Go to Github profile menu > *Settings* > *SSH and GPG keys* and paste it!
 
-7. Click the "Star" top-right button if this worked.
+8. Click the "Star" top-right button if this worked.
+
+That's it! Do not forget to hit the ⭐ button if you are now using SSH instead of HTTPS!
+
+
