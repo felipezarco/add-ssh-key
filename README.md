@@ -31,6 +31,7 @@ clip < ~/.ssh/id_ed25519.pub
 
 8. Click the "Star" top-right button if this worked.
 
+...
 That's it! Do not forget to hit the ⭐ button if you are now using SSH instead of HTTPS!
 
 
