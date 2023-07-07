@@ -25,7 +25,11 @@ ssh-add ~/.ssh/id_ed25519
 6. Copy the generated SSH key
 ````
 clip < ~/.ssh/id_ed25519.pub
-```` 
+````
+Or
+```
+cat ~/.ssh/id_ed25519.pub
+```
 
 7. Go to Github profile menu > *Settings* > *SSH and GPG keys* and paste it!
 
