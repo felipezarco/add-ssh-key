@@ -8,7 +8,6 @@ ssh-keygen -t ed25519 -C "felipezarco@hotmail.com"
 2. Press Enter when
 (/c/Users/you/.ssh/id_ed25519): **[Press enter]**
 
-
 3. Choose your password (not very hard since you will need it everytime) 
 
 4. Check if below command outputs "Agent pid number"
@@ -21,7 +20,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ``` 
 
-6. Copy the generated SSH key
+6. Copy the generated SSH key with either one of the two commands:
 ````
 clip < ~/.ssh/id_ed25519.pub
 ````
