@@ -20,11 +20,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ``` 
 
-6. Copy the generated SSH key with either one of the two commands:
-````
-clip < ~/.ssh/id_ed25519.pub
-````
-Or
+6. Copy the generated SSH key:
 ```
 cat ~/.ssh/id_ed25519.pub
 ```
