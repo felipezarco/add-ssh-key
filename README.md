@@ -8,7 +8,7 @@ ssh-keygen -t ed25519 -C "felipezarco@hotmail.com"
 2. Press Enter when
 (/c/Users/you/.ssh/id_ed25519): **[Press enter]**
 
-3. Choose your password (not very hard since you will need it everytime) 
+3. Leave it empty for no password OR choose your password (not very hard since you will need it everytime) 
 
 4. Check if below command outputs "Agent pid number"
 ```
