@@ -1,4 +1,4 @@
-# Generate new SSH Key and add it to Github 
+# How to Generate SSH Key and Add it to Github (step by step)
 
 1. Generate ssh key *with your own email*.
 ```shell
@@ -10,12 +10,14 @@ ssh-keygen -t ed25519 -C "felipezarco@hotmail.com"
 
 3. Leave it empty for no password OR choose your password (not very hard since you will need it everytime) 
 
-4. Check if below command outputs "Agent pid number"
+4. Check if command below correctly outputs "Agent pid" with some number
+
 ```
 eval "$(ssh-agent -s)"
 ``` 
 
 5. Set the password to your private key (Optional on Windows)
+
 ```
 ssh-add ~/.ssh/id_ed25519
 ``` 
@@ -25,11 +27,26 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-7. Go to Github profile menu > *Settings* > *SSH and GPG keys* and paste it!
+7. Go to Github profile menu > *Settings* > *SSH and GPG keys* (or just [click here](https://github.com/settings/ssh/new)) and paste it!
 
-8. Click the "Star" top-right button if this worked.
+8. Do not forget to hit the ⭐ button if this worked 😉 !
 
+That's it!
 ...
-That's it! Do not forget to hit the ⭐ button if you are now using SSH instead of HTTPS!
 
+
+Above SSH configuration is a solution to the following meesage (i.e.lack of repository access).
+
+```
+The authenticity of host 'github.com (20.201.28.151)' can't be established.
+ED25519 key fingerprint is XXXXXXXXX.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
 
