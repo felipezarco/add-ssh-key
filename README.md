@@ -27,7 +27,7 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-7. Go to Github profile menu > *Settings* > *SSH and GPG keys* (or just [click here](https://github.com/settings/ssh/new)) and paste it!
+7. Go to Github profile menu > *Settings* > *SSH and GPG keys* (or just [click here](https://github.com/settings/ssh/new)), give it a name to identify the computer and paste it!
 
 8. Do not forget to hit the ⭐ button if this worked 😉 !
 
