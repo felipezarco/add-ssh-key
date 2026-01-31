@@ -34,6 +34,7 @@ cat ~/.ssh/id_ed25519.pub
 That's it!
 ...
 
+### Troubleshooting
 
 Above SSH configuration is a solution to the following meesage (i.e.lack of repository access).
 
