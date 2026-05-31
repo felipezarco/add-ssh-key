@@ -2,7 +2,7 @@
 
 1. Generate ssh key *with your own email*.
 ```shell
-ssh-keygen -t ed25519 -C "felipezarco@hotmail.com"
+ssh-keygen -t ed25519 -C "your_email@email.com"
 ``` 
 
 2. Press Enter when
@@ -16,7 +16,7 @@ ssh-keygen -t ed25519 -C "felipezarco@hotmail.com"
 eval "$(ssh-agent -s)"
 ``` 
 
-5. Set the password to your private key (Optional on Windows)
+5. Set the password to your private key (This is **Optional on Windows**)
 
 ```
 ssh-add ~/.ssh/id_ed25519
@@ -27,7 +27,7 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-7. Go to Github profile menu > *Settings* > *SSH and GPG keys* (or just [click here](https://github.com/settings/ssh/new)), give it a name to identify the computer and paste it!
+7. Go to Github profile menu > *Settings* > *SSH and GPG keys* (or just [click here](https://github.com/settings/ssh/new)), give it a name to identify the computer and paste the whole line of text (including email)!
 
 8. Do not forget to hit the ⭐ button if this worked 😉 !
 
