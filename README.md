@@ -27,9 +27,11 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 ```
 
-7. Go to Github profile menu > *Settings* > *SSH and GPG keys* (or just [click here](https://github.com/settings/ssh/new)), give it a name to identify the computer and paste the whole line of text (including email)!
+7. Copy the output line of text the including e-mail (should begin with `ssh-ed25519` and end with `your_email@email.com` with a token in the middle).
 
-8. Do not forget to hit the ⭐ button if this worked 😉 !
+8. Go to Github profile menu > *Settings* > *SSH and GPG keys* (or just [click here](https://github.com/settings/ssh/new)), give it a name to identify the computer and paste the copied line of text!
+
+9. Do not forget to hit the ⭐ button if this worked 😉 !
 
 That's it!
 ...
